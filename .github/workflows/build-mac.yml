@@ -8,8 +8,8 @@ on:
 
 jobs:
   build-mac:
-    # macos-13 = Intel: o .app gerado roda em Macs Intel E Apple Silicon (via Rosetta).
-    runs-on: macos-13
+    # macos-latest = Apple Silicon (M1/M2/M3/M4): fila bem menor que as maquinas Intel.
+    runs-on: macos-latest
     steps:
       - name: Baixar o codigo
         uses: actions/checkout@v4
