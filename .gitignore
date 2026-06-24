@@ -1,0 +1,10 @@
+# nunca subir credenciais nem binarios
+credenciais.json
+config.json
+*.zip
+*.exe
+robo.log
+build/
+dist/
+__pycache__/
+*.spec
