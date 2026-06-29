@@ -1,10 +1,8 @@
 name: Build macOS app
 
-# Roda quando voce clicar em "Run workflow" na aba Actions, ou a cada push na main.
+# Roda so quando voce clicar em "Run workflow" na aba Actions (manual).
 on:
   workflow_dispatch:
-  push:
-    branches: [ main ]
 
 jobs:
   build-mac:
